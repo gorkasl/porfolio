@@ -57,8 +57,13 @@ h2{
   justify-content: center;
   align-items: center;
 }
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 h3{
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,5 +71,19 @@ h3{
 }
 
 .portadas_web{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.portadas_web a{
+  width: 30%;
+}
 
+.portadas_web a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 800ms;
 }
